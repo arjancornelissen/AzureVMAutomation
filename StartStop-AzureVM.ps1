@@ -7,7 +7,6 @@
    StartStop-AzureVM -vmname 'vmname' -resourceGroupName 'vm resourcegroupname' -startVM:$true
 .EXAMPLE
    StartStop-AzureVM -vmname 'vmname' -resourceGroupName 'vm resourcegroupname' -stopVM:$true
-   GitHub test update
 #>
 
 param(
